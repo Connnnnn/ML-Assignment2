@@ -1,9 +1,15 @@
 import csv
 import random
+import sys
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import metrics
+from tkinter import filedialog
+import tkinter as tk
+import ntpath
+import ctypes
 
 
 # Used to load in the file data into the dataset
@@ -49,7 +55,7 @@ def get_column(rows, col):
 def y_count(r):
     y_num = {}
     for row in r:
-        y = row[3]
+        y = row[label_col]
         if y not in y_num:
             y_num[y] = 0
         y_num[y] += 1
@@ -122,7 +128,7 @@ def split(r):
 
         # Skip the label column (beer style)
 
-        if c == 3:
+        if c == label_col:
             continue
         column_vals = get_column(r, c)
 
@@ -180,7 +186,8 @@ class Node:
         self.false_branch = false_branch
 
 
-# method used to classify test data once tree is formed
+# Classify is used in order to determine what is each value
+
 def classify(r, node):
     if isinstance(node, Leaf):
         return node.predictions
@@ -220,24 +227,54 @@ def print_leaf(counts):
         probs[lbl] = str(int(counts[lbl] / total * 100)) + "%"
     return probs
 
+# Ntpath is used in order to retrieve the name of the file from the file path
+def path_name(path):
+    head, tail = ntpath.split(path)
+    return tail or ntpath.basename(head)
+
 
 if __name__ == "__main__":
-    #
-    filename = 'beer.txt'
+    #TKinter is used in order to open file dialog to get the training and testing data
+    root = tk.Tk()
+    root.withdraw()
+    #ctypes is used in order to print out a message box to tell the user which files are being asked of them
+    ctypes.windll.user32.MessageBoxW(0, "Select your training + testing data", "File Selection", 0)
+
+    file_path = filedialog.askopenfilename()
+    print(file_path)
+    filename = path_name(file_path)
+
+    #Label col in this case is beer style and is adjustable to whichever attritbute you choose
+    label_col = 3
     avg_acc = 0
     avg_ref_acc = 0
     i = 0
     data, classes, attributes = load_data(filename)
 
+    # ------------------------------------------------------------------#
     # This is for the reference implementation of the decision tree classifier
+
 
     featuredCols = ['calorific_value', 'nitrogen', 'turbidity', 'alcohol', 'sugars', 'bitterness', 'beer_id',
                     'colour', 'degree_of_fermentation']
     ref_attributes = ['calorific_value', 'nitrogen', 'turbidity', 'beer_style', 'alcohol', 'sugars', 'bitterness',
                       'beer_id', 'colour', 'degree_of_fermentation']
 
-    trainingData = pd.read_csv('training.txt', sep='\t', names=ref_attributes)
-    testData = pd.read_csv('test.txt', sep='\t', names=ref_attributes)
+    ctypes.windll.user32.MessageBoxW(0, "Select your reference algorithm training data", "File Selection", 0)
+    ref_train_path = filedialog.askopenfilename()
+    train_path_filename = path_name(ref_train_path)
+
+    ctypes.windll.user32.MessageBoxW(0, "Select your reference algorithm testing data", "File Selection", 0)
+    ref_test_path = filedialog.askopenfilename()
+    test_path_filename = path_name(ref_test_path)
+
+    trainingData = pd.read_csv(train_path_filename, sep='\t', names=ref_attributes)
+    testData = pd.read_csv(test_path_filename, sep='\t', names=ref_attributes)
+    sys.stdout = open('output.txt', 'wt')
+
+    # ------------------------------------------------------------------#
+    # Main random divisions of the algorithm. Each time the testing and training data is
+    # shuffled and split randomly
 
     while i < 10:
         testing, training = split_shuffle(data, 3)
@@ -247,9 +284,9 @@ if __name__ == "__main__":
         correct = 0
         incorrect = 0
         for r in testing:
-            print("Actual: %s. Predicted: %s" % (r[3], print_leaf(classify(r, tree))))
+            print("Actual: %s. Predicted: %s" % (r[label_col], print_leaf(classify(r, tree))))
             for key, value in classify(r, tree).items():
-                if r[3] == key:
+                if r[label_col] == key:
                     correct += 1
                 else:
                     incorrect += 1
@@ -261,6 +298,7 @@ if __name__ == "__main__":
         i += 1
         avg_acc += correct / (correct + incorrect)
 
+        # ------------------------------------------------------------------#
         # REFERENCE IMPLEMENTATION
 
         x_train = trainingData[featuredCols]
@@ -273,6 +311,7 @@ if __name__ == "__main__":
         y_predict = dtc.predict(x_test)
 
         avg_ref_acc += metrics.accuracy_score(y_test, y_predict)
+        # ------------------------------------------------------------------#
 
     print("\nThe Average Accuracy across 10 iterations: ")
     acc10 = avg_acc / 10 * 100
