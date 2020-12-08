@@ -1,623 +1,175 @@
 Is nitrogen > 0.360463403 ?
 --> True:
-  Predict {'ale': 32}
---> False:
-  Is turbidity > 1.543636364 ?
-  --> True:
-    Is degree_of_fermentation > 13.44 ?
-    --> True:
-      Predict {'lager': 3}
-    --> False:
-      Is beer_id > 10.31873684 ?
-      --> True:
-        Predict {'ale': 2}
-      --> False:
-        Predict {'stout': 33}
-  --> False:
-    Is bitterness > 19.72 ?
-    --> True:
-      Predict {'stout': 2}
-    --> False:
-      Is beer_id > 4.326368421 ?
-      --> True:
-        Is colour > 95 ?
-        --> True:
-          Predict {'ale': 1}
-        --> False:
-          Predict {'lager': 29}
-      --> False:
-        Predict {'stout': 1}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Percentage Correctly Classified
-82.35294117647058
-Percentage Incorrectly Classified
-17.647058823529413
-Is nitrogen > 0.360463403 ?
---> True:
-  Is sugars > 3.953846154 ?
-  --> True:
-    Predict {'ale': 31}
-  --> False:
-    Is calorific_value > 45.0840708 ?
-    --> True:
-      Predict {'lager': 1}
-    --> False:
-      Predict {'stout': 1}
+  Predict {'ale': 34}
 --> False:
   Is degree_of_fermentation > 9.48 ?
   --> True:
-    Is bitterness > 17.59 ?
+    Is sugars > 3.950769231 ?
     --> True:
-      Is nitrogen > 0.295421137 ?
+      Is beer_id > 6.608789474 ?
       --> True:
-        Predict {'ale': 3}
-      --> False:
-        Is calorific_value > 40.92477876 ?
+        Is bitterness > 17.05 ?
         --> True:
-          Predict {'stout': 2}
+          Predict {'ale': 5}
         --> False:
-          Predict {'lager': 2}
+          Predict {'lager': 3}
+      --> False:
+        Predict {'stout': 5}
     --> False:
-      Predict {'lager': 34}
+      Predict {'lager': 31}
   --> False:
-    Is turbidity > 1.352727273 ?
+    Is turbidity > 1.311818182 ?
     --> True:
-      Predict {'stout': 26}
+      Predict {'stout': 24}
     --> False:
-      Predict {'lager': 3}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
+      Predict {'lager': 1}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'stout': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Percentage Correctly Classified
 82.35294117647058
 Percentage Incorrectly Classified
 17.647058823529413
+Reference Algorithms Percentage Accuracy
+86.66666666666667
 Is nitrogen > 0.360463403 ?
 --> True:
-  Is turbidity > 0.885454545 ?
+  Is turbidity > 1.141818182 ?
   --> True:
-    Predict {'ale': 35}
-  --> False:
-    Predict {'lager': 2}
---> False:
-  Is degree_of_fermentation > 9.48 ?
-  --> True:
-    Is bitterness > 17.59 ?
+    Is sugars > 3.953846154 ?
     --> True:
-      Is nitrogen > 0.295421137 ?
-      --> True:
-        Predict {'ale': 4}
-      --> False:
-        Is nitrogen > 0.221810849 ?
-        --> True:
-          Predict {'stout': 2}
-        --> False:
-          Predict {'lager': 1}
+      Predict {'ale': 31}
     --> False:
-      Is colour > 95 ?
-      --> True:
-        Predict {'ale': 1}
-      --> False:
-        Predict {'lager': 27}
-  --> False:
-    Is turbidity > 1.194545455 ?
-    --> True:
-      Is beer_id > 13.81763158 ?
-      --> True:
-        Predict {'lager': 1}
-      --> False:
-        Predict {'stout': 29}
-    --> False:
-      Predict {'lager': 1}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Percentage Correctly Classified
-90.19607843137256
-Percentage Incorrectly Classified
-9.803921568627452
-Is nitrogen > 0.396443611 ?
---> True:
-  Predict {'ale': 28}
---> False:
-  Is turbidity > 1.543636364 ?
-  --> True:
-    Is degree_of_fermentation > 11.76 ?
-    --> True:
-      Is nitrogen > 0.308351123 ?
-      --> True:
-        Predict {'ale': 1}
-      --> False:
-        Predict {'lager': 6}
-    --> False:
-      Is beer_id > 9.457894737 ?
-      --> True:
-        Is nitrogen > 0.295421137 ?
-        --> True:
-          Predict {'ale': 3}
-        --> False:
-          Predict {'stout': 1}
-      --> False:
-        Predict {'stout': 29}
-  --> False:
-    Is sugars > 3.978461538 ?
-    --> True:
-      Is calorific_value > 43.62389381 ?
-      --> True:
-        Is nitrogen > 0.349082206 ?
-        --> True:
-          Predict {'ale': 2}
-        --> False:
-          Predict {'stout': 1}
-      --> False:
-        Predict {'lager': 3}
-    --> False:
-      Predict {'lager': 29}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Percentage Correctly Classified
-84.31372549019608
-Percentage Incorrectly Classified
-15.686274509803921
-Is degree_of_fermentation > 9.48 ?
---> True:
-  Is nitrogen > 0.308351123 ?
-  --> True:
-    Is turbidity > 1.09 ?
-    --> True:
-      Is sugars > 3.978461538 ?
-      --> True:
-        Predict {'ale': 33}
-      --> False:
-        Predict {'lager': 1}
-    --> False:
-      Predict {'lager': 3}
-  --> False:
-    Is turbidity > 1.638181818 ?
-    --> True:
-      Is calorific_value > 42.03097345 ?
-      --> True:
-        Predict {'lager': 1}
-      --> False:
-        Predict {'stout': 3}
-    --> False:
-      Predict {'lager': 27}
---> False:
-  Is degree_of_fermentation > 15 ?
-  --> True:
-    Is calorific_value > 39.28761062 ?
-    --> True:
-      Predict {'ale': 1}
-    --> False:
-      Predict {'lager': 1}
-  --> False:
-    Is turbidity > 1.194545455 ?
-    --> True:
-      Predict {'stout': 32}
-    --> False:
-      Predict {'lager': 1}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'stout': '100%'}
-Percentage Correctly Classified
-80.3921568627451
-Percentage Incorrectly Classified
-19.607843137254903
-Is nitrogen > 0.335413804 ?
---> True:
-  Is turbidity > 0.885454545 ?
-  --> True:
-    Is turbidity > 2.937272727 ?
-    --> True:
       Predict {'stout': 1}
-    --> False:
-      Predict {'ale': 38}
-  --> False:
-    Predict {'lager': 3}
---> False:
-  Is turbidity > 1.559090909 ?
-  --> True:
-    Is degree_of_fermentation > 11.16 ?
-    --> True:
-      Is sugars > 4.212307692 ?
-      --> True:
-        Predict {'stout': 1}
-      --> False:
-        Predict {'lager': 5}
-    --> False:
-      Predict {'stout': 25}
-  --> False:
-    Is colour > 95 ?
-    --> True:
-      Predict {'ale': 1}
-    --> False:
-      Predict {'lager': 29}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Percentage Correctly Classified
-76.47058823529412
-Percentage Incorrectly Classified
-23.52941176470588
-Is nitrogen > 0.360463403 ?
---> True:
-  Is turbidity > 0.885454545 ?
-  --> True:
-    Predict {'ale': 30}
   --> False:
     Predict {'lager': 2}
 --> False:
-  Is degree_of_fermentation > 10.872 ?
+  Is degree_of_fermentation > 11.04 ?
   --> True:
     Is nitrogen > 0.308351123 ?
     --> True:
-      Is bitterness > 17.05 ?
+      Is sugars > 3.978461538 ?
       --> True:
         Predict {'ale': 3}
       --> False:
-        Predict {'lager': 2}
+        Predict {'lager': 1}
     --> False:
-      Predict {'lager': 29}
+      Predict {'lager': 27}
   --> False:
-    Is turbidity > 1.301818182 ?
+    Is sugars > 3.769230769 ?
     --> True:
       Is beer_id > 10.31873684 ?
       --> True:
         Predict {'ale': 1}
       --> False:
-        Predict {'stout': 29}
+        Predict {'stout': 31}
     --> False:
-      Is calorific_value > 38.80088496 ?
-      --> True:
-        Predict {'lager': 6}
-      --> False:
-        Predict {'stout': 1}
-Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
+      Predict {'lager': 6}
+Actual: ale. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Percentage Correctly Classified
-88.23529411764706
+78.43137254901961
 Percentage Incorrectly Classified
-11.76470588235294
+21.568627450980394
+Reference Algorithms Percentage Accuracy
+86.66666666666667
 Is nitrogen > 0.360463403 ?
 --> True:
   Is turbidity > 0.885454545 ?
@@ -630,95 +182,457 @@ Is nitrogen > 0.360463403 ?
   --> False:
     Predict {'lager': 2}
 --> False:
-  Is degree_of_fermentation > 10.32 ?
+  Is bitterness > 17.31 ?
   --> True:
-    Is sugars > 4.16 ?
+    Is beer_id > 9.598736842 ?
     --> True:
-      Is beer_id > 10.31873684 ?
+      Is nitrogen > 0.295421137 ?
       --> True:
-        Is nitrogen > 0.295421137 ?
-        --> True:
-          Predict {'ale': 2}
-        --> False:
-          Predict {'lager': 1}
+        Predict {'ale': 2}
+      --> False:
+        Predict {'lager': 3}
+    --> False:
+      Is sugars > 3.769230769 ?
+      --> True:
+        Predict {'stout': 28}
+      --> False:
+        Predict {'lager': 1}
+  --> False:
+    Is degree_of_fermentation > 9.48 ?
+    --> True:
+      Predict {'lager': 31}
+    --> False:
+      Is nitrogen > 0.286716054 ?
+      --> True:
+        Predict {'lager': 2}
       --> False:
         Predict {'stout': 3}
-    --> False:
-      Predict {'lager': 27}
-  --> False:
-    Is turbidity > 1.311818182 ?
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Percentage Correctly Classified
+92.15686274509804
+Percentage Incorrectly Classified
+7.8431372549019605
+Reference Algorithms Percentage Accuracy
+76.66666666666667
+Is nitrogen > 0.396443611 ?
+--> True:
+  Predict {'ale': 29}
+--> False:
+  Is turbidity > 1.543636364 ?
+  --> True:
+    Is degree_of_fermentation > 10.56 ?
     --> True:
-      Is beer_id > 13.81763158 ?
+      Is nitrogen > 0.295421137 ?
+      --> True:
+        Predict {'ale': 4}
+      --> False:
+        Is sugars > 3.950769231 ?
+        --> True:
+          Predict {'stout': 2}
+        --> False:
+          Predict {'lager': 4}
+    --> False:
+      Predict {'stout': 28}
+  --> False:
+    Is sugars > 3.978461538 ?
+    --> True:
+      Is bitterness > 16.9 ?
+      --> True:
+        Is nitrogen > 0.312053481 ?
+        --> True:
+          Predict {'ale': 3}
+        --> False:
+          Predict {'stout': 2}
+      --> False:
+        Predict {'lager': 3}
+    --> False:
+      Predict {'lager': 28}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Percentage Correctly Classified
+86.27450980392157
+Percentage Incorrectly Classified
+13.725490196078432
+Reference Algorithms Percentage Accuracy
+80.0
+Is nitrogen > 0.360463403 ?
+--> True:
+  Is sugars > 4.015384615 ?
+  --> True:
+    Predict {'ale': 32}
+  --> False:
+    Predict {'stout': 1}
+--> False:
+  Is sugars > 3.830769231 ?
+  --> True:
+    Is degree_of_fermentation > 11.52 ?
+    --> True:
+      Is bitterness > 17.05 ?
+      --> True:
+        Is calorific_value > 38.71238938 ?
+        --> True:
+          Predict {'ale': 3}
+        --> False:
+          Predict {'stout': 1}
+      --> False:
+        Predict {'lager': 6}
+    --> False:
+      Is sugars > 4.375384615 ?
+      --> True:
+        Predict {'ale': 1}
+      --> False:
+        Predict {'stout': 27}
+  --> False:
+    Is turbidity > 2.31 ?
+    --> True:
+      Is calorific_value > 45.70353982 ?
       --> True:
         Predict {'lager': 1}
       --> False:
-        Predict {'stout': 31}
+        Predict {'stout': 2}
     --> False:
-      Is calorific_value > 38.53539823 ?
-      --> True:
-        Predict {'lager': 4}
-      --> False:
-        Predict {'stout': 1}
+      Predict {'lager': 29}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Percentage Correctly Classified
 88.23529411764706
 Percentage Incorrectly Classified
 11.76470588235294
-Is nitrogen > 0.363074414 ?
+Reference Algorithms Percentage Accuracy
+46.666666666666664
+Is nitrogen > 0.360463403 ?
+--> True:
+  Is turbidity > 0.885454545 ?
+  --> True:
+    Is sugars > 3.953846154 ?
+    --> True:
+      Predict {'ale': 30}
+    --> False:
+      Predict {'stout': 1}
+  --> False:
+    Predict {'lager': 2}
+--> False:
+  Is turbidity > 2.308181818 ?
+  --> True:
+    Is calorific_value > 45.70353982 ?
+    --> True:
+      Predict {'lager': 1}
+    --> False:
+      Predict {'stout': 25}
+  --> False:
+    Is sugars > 3.950769231 ?
+    --> True:
+      Is beer_id > 6.608789474 ?
+      --> True:
+        Is nitrogen > 0.312053481 ?
+        --> True:
+          Predict {'ale': 2}
+        --> False:
+          Predict {'lager': 3}
+      --> False:
+        Predict {'stout': 5}
+    --> False:
+      Predict {'lager': 34}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Percentage Correctly Classified
+82.35294117647058
+Percentage Incorrectly Classified
+17.647058823529413
+Reference Algorithms Percentage Accuracy
+50.0
+Is nitrogen > 0.335413804 ?
+--> True:
+  Is turbidity > 0.885454545 ?
+  --> True:
+    Is beer_id > 8.651894737 ?
+    --> True:
+      Predict {'ale': 32}
+    --> False:
+      Predict {'stout': 2}
+  --> False:
+    Predict {'lager': 2}
+--> False:
+  Is sugars > 3.935384615 ?
+  --> True:
+    Is degree_of_fermentation > 14.28 ?
+    --> True:
+      Predict {'lager': 3}
+    --> False:
+      Is beer_id > 10.31873684 ?
+      --> True:
+        Predict {'ale': 1}
+      --> False:
+        Predict {'stout': 26}
+  --> False:
+    Is bitterness > 19.72 ?
+    --> True:
+      Predict {'stout': 2}
+    --> False:
+      Is colour > 130 ?
+      --> True:
+        Predict {'stout': 1}
+      --> False:
+        Predict {'lager': 34}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Percentage Correctly Classified
+82.35294117647058
+Percentage Incorrectly Classified
+17.647058823529413
+Reference Algorithms Percentage Accuracy
+83.33333333333334
+Is nitrogen > 0.360463403 ?
 --> True:
   Is sugars > 3.953846154 ?
   --> True:
-    Predict {'ale': 30}
+    Predict {'ale': 34}
   --> False:
     Is calorific_value > 45.0840708 ?
     --> True:
@@ -726,181 +640,287 @@ Is nitrogen > 0.363074414 ?
     --> False:
       Predict {'stout': 1}
 --> False:
-  Is turbidity > 1.543636364 ?
+  Is turbidity > 1.800909091 ?
   --> True:
-    Is degree_of_fermentation > 11.76 ?
+    Is degree_of_fermentation > 10.68 ?
     --> True:
-      Is nitrogen > 0.308351123 ?
+      Is calorific_value > 44.86283186 ?
       --> True:
-        Predict {'ale': 1}
+        Predict {'lager': 2}
       --> False:
-        Predict {'lager': 5}
-    --> False:
-      Is beer_id > 10.31873684 ?
-      --> True:
-        Predict {'ale': 2}
-      --> False:
-        Predict {'stout': 30}
-  --> False:
-    Is sugars > 3.978461538 ?
-    --> True:
-      Is bitterness > 17.81 ?
-      --> True:
-        Predict {'stout': 4}
-      --> False:
-        Is calorific_value > 41.94247788 ?
+        Is calorific_value > 41.67699115 ?
         --> True:
-          Predict {'lager': 3}
-        --> False:
           Predict {'ale': 1}
+        --> False:
+          Predict {'stout': 1}
     --> False:
-      Predict {'lager': 25}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'ale': '100%'}
-Percentage Correctly Classified
-92.15686274509804
-Percentage Incorrectly Classified
-7.8431372549019605
-Is nitrogen > 0.363074414 ?
---> True:
-  Is turbidity > 1.09 ?
-  --> True:
-    Predict {'ale': 37}
+      Predict {'stout': 22}
   --> False:
-    Predict {'lager': 1}
---> False:
-  Is degree_of_fermentation > 9.48 ?
-  --> True:
     Is bitterness > 17.59 ?
     --> True:
-      Is sugars > 3.978461538 ?
+      Is beer_id > 7.556157895 ?
       --> True:
-        Is beer_id > 9.628894737 ?
+        Is nitrogen > 0.308351123 ?
         --> True:
           Predict {'ale': 3}
         --> False:
-          Predict {'stout': 4}
+          Predict {'lager': 5}
       --> False:
-        Predict {'lager': 3}
+        Predict {'stout': 5}
     --> False:
       Predict {'lager': 28}
-  --> False:
-    Is turbidity > 1.311818182 ?
-    --> True:
-      Predict {'stout': 23}
-    --> False:
-      Is calorific_value > 38.53539823 ?
-      --> True:
-        Predict {'lager': 3}
-      --> False:
-        Predict {'stout': 1}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Percentage Correctly Classified
+88.23529411764706
+Percentage Incorrectly Classified
+11.76470588235294
+Reference Algorithms Percentage Accuracy
+83.33333333333334
+Is nitrogen > 0.396443611 ?
+--> True:
+  Predict {'ale': 31}
+--> False:
+  Is turbidity > 1.543636364 ?
+  --> True:
+    Is degree_of_fermentation > 11.16 ?
+    --> True:
+      Is nitrogen > 0.335413804 ?
+      --> True:
+        Predict {'ale': 2}
+      --> False:
+        Predict {'lager': 4}
+    --> False:
+      Is beer_id > 10.31873684 ?
+      --> True:
+        Predict {'ale': 1}
+      --> False:
+        Predict {'stout': 25}
+  --> False:
+    Is sugars > 3.978461538 ?
+    --> True:
+      Is bitterness > 16.9 ?
+      --> True:
+        Is turbidity > 1.316363636 ?
+        --> True:
+          Predict {'ale': 2}
+        --> False:
+          Predict {'stout': 2}
+      --> False:
+        Predict {'lager': 2}
+    --> False:
+      Is bitterness > 19.72 ?
+      --> True:
+        Predict {'stout': 1}
+      --> False:
+        Predict {'lager': 33}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Percentage Correctly Classified
+86.27450980392157
+Percentage Incorrectly Classified
+13.725490196078432
+Reference Algorithms Percentage Accuracy
+56.666666666666664
+Is nitrogen > 0.360463403 ?
+--> True:
+  Is sugars > 4.015384615 ?
+  --> True:
+    Predict {'ale': 31}
+  --> False:
+    Is calorific_value > 44.59734513 ?
+    --> True:
+      Predict {'stout': 1}
+    --> False:
+      Predict {'lager': 1}
+--> False:
+  Is turbidity > 1.800909091 ?
+  --> True:
+    Is beer_id > 10.31873684 ?
+    --> True:
+      Is calorific_value > 45.70353982 ?
+      --> True:
+        Predict {'lager': 1}
+      --> False:
+        Predict {'ale': 1}
+    --> False:
+      Predict {'stout': 24}
+  --> False:
+    Is sugars > 3.941538462 ?
+    --> True:
+      Is degree_of_fermentation > 11.52 ?
+      --> True:
+        Is bitterness > 17.05 ?
+        --> True:
+          Predict {'ale': 4}
+        --> False:
+          Predict {'lager': 4}
+      --> False:
+        Predict {'stout': 6}
+    --> False:
+      Is bitterness > 19.72 ?
+      --> True:
+        Predict {'stout': 1}
+      --> False:
+        Predict {'lager': 29}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: ale. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'stout': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: ale. Predicted: {'ale': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: stout. Predicted: {'stout': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
+Actual: lager. Predicted: {'lager': '100%'}
 Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: lager. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
 Actual: ale. Predicted: {'ale': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: ale. Predicted: {'lager': '100%'}
-Actual: ale. Predicted: {'ale': '100%'}
-Actual: stout. Predicted: {'stout': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
-Actual: lager. Predicted: {'lager': '100%'}
 Actual: stout. Predicted: {'stout': '100%'}
 Percentage Correctly Classified
-84.31372549019608
+94.11764705882352
 Percentage Incorrectly Classified
-15.686274509803921
+5.88235294117647
+Reference Algorithms Percentage Accuracy
+90.0
 
 The Average Accuracy across 10 iterations: 
-84.90196078431374
+86.07843137254902
 
 The Average Accuracy for the reference decision tree classifier across 10 iterations: 
-78.66666666666666
+74.0

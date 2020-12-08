@@ -1,9 +1,7 @@
 import csv
 import random
 import sys
-
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import metrics
 from tkinter import filedialog
@@ -134,7 +132,7 @@ def split(r):
 
         i = 0
         while i < len(column_vals):
-            # value we want to check
+            # value to compare
             att_val = r[i][c]
 
             # Use the attribute value to fork the data to true and false streams
@@ -186,9 +184,9 @@ class Node:
         self.false_branch = false_branch
 
 
-# Classify is used in order to determine what is each value
+# Confidence is used in order to determine what is each value
 
-def classify(r, node):
+def confidence(r, node):
     if isinstance(node, Leaf):
         return node.predictions
 
@@ -196,9 +194,9 @@ def classify(r, node):
     att_value = node.att_value
 
     if compare(r, c, att_value):
-        return classify(r, node.true_branch)
+        return confidence(r, node.true_branch)
     else:
-        return classify(r, node.false_branch)
+        return confidence(r, node.false_branch)
 
 
 # Prints and formats the tree based on the branches and questions
@@ -228,6 +226,7 @@ def print_leaf(counts):
     return probs
 
 # Ntpath is used in order to retrieve the name of the file from the file path
+
 def path_name(path):
     head, tail = ntpath.split(path)
     return tail or ntpath.basename(head)
@@ -243,6 +242,7 @@ if __name__ == "__main__":
     file_path = filedialog.askopenfilename()
     print(file_path)
     filename = path_name(file_path)
+    filename="beer.txt"
 
     #Label col in this case is beer style and is adjustable to whichever attritbute you choose
     label_col = 3
@@ -268,8 +268,8 @@ if __name__ == "__main__":
     ref_test_path = filedialog.askopenfilename()
     test_path_filename = path_name(ref_test_path)
 
-    trainingData = pd.read_csv(train_path_filename, sep='\t', names=ref_attributes)
-    testData = pd.read_csv(test_path_filename, sep='\t', names=ref_attributes)
+    trainingData = pd.read_csv("training.txt", sep='\t', names=ref_attributes)
+    testData = pd.read_csv("test.txt", sep='\t', names=ref_attributes)
     sys.stdout = open('output.txt', 'wt')
 
     # ------------------------------------------------------------------#
@@ -284,8 +284,8 @@ if __name__ == "__main__":
         correct = 0
         incorrect = 0
         for r in testing:
-            print("Actual: %s. Predicted: %s" % (r[label_col], print_leaf(classify(r, tree))))
-            for key, value in classify(r, tree).items():
+            print("Actual: %s. Predicted: %s" % (r[label_col], print_leaf(confidence(r, tree))))
+            for key, value in confidence(r, tree).items():
                 if r[label_col] == key:
                     correct += 1
                 else:
@@ -311,6 +311,8 @@ if __name__ == "__main__":
         y_predict = dtc.predict(x_test)
 
         avg_ref_acc += metrics.accuracy_score(y_test, y_predict)
+        print('Reference Algorithms Percentage Accuracy')
+        print(metrics.accuracy_score(y_test, y_predict)*100)
         # ------------------------------------------------------------------#
 
     print("\nThe Average Accuracy across 10 iterations: ")
